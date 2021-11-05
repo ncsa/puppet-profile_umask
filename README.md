@@ -1,11 +1,5 @@
 # profile_umask
 
-Welcome to your new module. A short overview of the generated parts can be found
-in the [PDK documentation][1].
-
-The README template below provides a starting point with details about what
-information to include in your README.
-
 ## Table of Contents
 
 1. [Description](#description)
@@ -19,16 +13,13 @@ information to include in your README.
 
 ## Description
 
-Briefly tell users why they might want to use your module. Explain what your
-module does and what kind of problems users can solve with it.
-
-This should be a fairly short description helps the user decide if your module
-is what they want.
+This module should modify the default user umask.
 
 ## Setup
 
-### What profile_umask affects **OPTIONAL**
+### What profile_umask affects 
 
+This modifies /etc/profile
 If it's obvious what your module touches, you can skip this section. For
 example, folks can probably figure out that your mysql_instance module affects
 their MySQL instances.
