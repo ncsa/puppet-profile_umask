@@ -1,4 +1,4 @@
-.yamllint.yaml---
+---
 extends: "default"
 
 rules:
