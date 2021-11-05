@@ -1,2 +1,2 @@
---- {}
+---
 profile_umask::loginumask: "077"
