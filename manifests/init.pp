@@ -10,15 +10,14 @@ class profile_umask (
   ##Change default user umask
   file_line { 'default_user_umask':
     path               => '/etc/profile',
-    line               => "    umask $loginumask",
+    line               => "    umask ${loginumask}",
     match              => '^\s*umask\s022$',
     append_on_no_match => 'false',
   }
   file_line{ 'default_user_umask':
     path               => '/etc/profile',
-    line               => "UMASK           $loginumask",
+    line               => "UMASK           ${loginumask}",
     match              => '^UMASK\s*022',
     append_on_no_match => 'false',
   }
-
-}  
+}
