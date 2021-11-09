@@ -4,7 +4,8 @@
   "author": "David King",
   "summary": "",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/ncsa/puppet-profile_umask",
+  "issues_url": "https://github.com/ncsa/puppet-profile_umask/issues",
   "dependencies": [
 
   ],
