@@ -28,20 +28,9 @@ To install and configure:
 include ::profile_umask
 ```
 
-
 ## Reference
 
-```
-### `profile_umask::loginumask:`
-
-#### Parameters
-
-##### `loginumask`
-
-The umask in which to change from 022.
-
-Default: '077'.
-```
+[REFERENCE.md](REFERENCE.md)
 
 [1]: https://puppet.com/docs/pdk/latest/pdk_generating_modules.html
 [2]: https://puppet.com/docs/puppet/latest/puppet_strings.html

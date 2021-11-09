@@ -1,6 +1,7 @@
-# @summary A short summary of the purpose of this class
+# @summary Modifies the default umask of 022
 #
-# A description of what this class does
+# @param loginumask
+#   The umask that replaces the default 022 umask 
 #
 # @example
 #   include profile_umask
