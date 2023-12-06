@@ -15,7 +15,7 @@ This module should modify the default user umask.
 
 ### What profile_umask affects 
 
-This modifies /etc/profile and /etc/login.defs. The changes are to the login
+This modifies /etc/profile, /etc/login.defs, and /etc/csh.cshrc. The changes are to the login
 umask. It will only change the umask if the umask is the default 022. The 
 default umask in hiera to change to is 077.
 
