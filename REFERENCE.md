@@ -26,9 +26,9 @@ include profile_umask
 
 The following parameters are available in the `profile_umask` class:
 
-* [`loginumask`](#loginumask)
+* [`loginumask`](#-profile_umask--loginumask)
 
-##### <a name="loginumask"></a>`loginumask`
+##### <a name="-profile_umask--loginumask"></a>`loginumask`
 
 Data type: `String`
 
